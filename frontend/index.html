@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JARVIS</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="scanline"></div>
+    <canvas id="rings"></canvas>
+    <div class="app">
+        <header class="header">
+            <div class="header__left">
+            <div class="header__orb"></div>
+            <div>
+            <h1 class="header__title">J.A.R.V.I.S</h1>
+            <p class="header__subtitle">Just a Rather very intelligent System</p>
+            </div>
+        </div>
+            <div class="header__stats" id="stats">
+                <div class="stat">
+                    <span class="stat__label">CPU</span>
+                    <span class="stat__value" id="cpu-val">--%</span>
+                    <div class="stat__bar"><div class="stat__fill" id="cpu-bar"></div></div>
+                </div>
+                <div class="stat">
+                    <span class="stat__label">RAM</span>
+                    <span class="stat__value" id="ram-val">--%</span>
+                    <div class="stat__bar"><div class="stat__fill" id="ram-bar"></div></div>
+                </div>
+                <div class="header__status">
+                <span class="status-dot"></span>
+                <span class="status-text" id="status-text">ONLINE</span>
+            </div>
+            </div>
+        </header>
+        <main class="chat">
+            <div class="chat__messages" id="messages">
+                <div class="message messages--assistant">
+                    <div class="message__bubble">
+                        Sistema en línea. Bienvenido, señor. ¿En qué puedo asistirle?
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="input-area">
+            <div class="waveform" id="waveform">
+                <canvas id="wave-canvas"></canvas>
+            </div>
+            <div class="input-area__inner">
+                <span class="input-area__prefix">&gt;_</span>
+                <input type="text"
+                id="input"
+                class="input-area__input"
+                placeholder="Escribe un comando..."
+                autocomplete="off"/>
+                <button id="mic-btn" class="input-area__mic">🎤</button>
+                <button id="send-btn" class="input-area__btn"><span>EJECUTAR</span></button>
+            </div>
+        </footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
