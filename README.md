@@ -6,8 +6,6 @@ Asistente de inteligencia artificial personal con interfaz holográfica estilo H
 
 🚧 **Proyecto en desarrollo activo** — funcional en su núcleo, con nuevas features añadiéndose constantemente.
 
-![JARVIS HUD Screenshot](docs/screenshot.png)
-
 ---
 
 ## ✨ Características
