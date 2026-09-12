@@ -23,8 +23,8 @@ Asistente de inteligencia artificial personal con interfaz holográfica estilo H
 
 ---
 ## Capturas de pantalla
-<img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/b58ecc27-cb46-4fc8-95be-33f52b6f9c58" />
-<img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/6b41dd63-2d85-46a2-a2a6-36995478d2fc" />
+<img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/b58ecc27-cb46-4fc8-95be-33f52b6f9c58" />
+<img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/6b41dd63-2d85-46a2-a2a6-36995478d2fc" />
 
 
 ## 🛠️ Stack técnico
