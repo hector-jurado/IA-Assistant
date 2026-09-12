@@ -8,6 +8,7 @@ Asistente de inteligencia artificial personal con interfaz holográfica estilo H
 
 ---
 
+
 ## ✨ Características
 
 - 💬 **Chat conversacional** con Llama 3.3 70B (Groq) a través de un prompt personalizado que le da personalidad a JARVIS.
@@ -21,6 +22,8 @@ Asistente de inteligencia artificial personal con interfaz holográfica estilo H
 - 🎛️ **Interfaz HUD holográfica** con animaciones, monitor de recursos en vivo y estética inspirada en ciencia ficción.
 
 ---
+## Capturas de pantalla
+<img width="1112" height="898" alt="image" src="https://github.com/user-attachments/assets/b58ecc27-cb46-4fc8-95be-33f52b6f9c58" />
 
 ## 🛠️ Stack técnico
 
